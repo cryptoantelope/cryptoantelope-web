@@ -20,6 +20,7 @@ export default function Home() {
         <div>
             <Head>
                 <title>Cryptoantelope</title>
+	        <meta name="google-site-verification" content="eAXNRIE_aOd0hifhMj7AKF1bsccWtTsISDEnRdhcVcA" />
                 <link rel="icon" href="/favicon.ico" />
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossOrigin="anonymous" />
                 <script src="https://kit.fontawesome.com/eb082f2eae.js" crossorigin="anonymous"></script>
