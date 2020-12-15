@@ -25,15 +25,19 @@ export default function Home() {
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossOrigin="anonymous" />
                 <script src="https://kit.fontawesome.com/eb082f2eae.js" crossorigin="anonymous"></script>
 	        <script async src="https://www.googletagmanager.com/gtag/js?id=G-48Q5X8MR1S"></script>
-                <script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
+                <script
+	            dangerouslySetInnerHTML={{
+			__html: `    
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
 
-                    gtag('config', 'G-48Q5X8MR1S', {
-                            page_path: window.location.pathname
-                    });
-                </script>
+                            gtag('config', 'G-48Q5X8MR1S', {
+                                    page_path: window.location.pathname
+                            });
+			`
+	            }}
+                />
             </Head>
             <Header />
             
