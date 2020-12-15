@@ -18,7 +18,7 @@ const Card = props => {
                             href={link}
                             rel="nofollow"
                         >
-                            {linkLabel? linkLabel:"ir a registrarse"}
+                            {linkLabel? linkLabel:"visit this site"}
                         </a>
                         :""
                     }
